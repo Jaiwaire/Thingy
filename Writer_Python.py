@@ -8,7 +8,7 @@ while True:
     if Beginning:
       print(Beginning)
     elif not Beginning:
-      return
+      break
   if Beginning:
     #Checks if there is a beginning
     if not PreviousAddon:
@@ -17,9 +17,13 @@ while True:
       if Addon:
         print(Beginning + " " + Addon)
         PreviousAddon = Addon
+      elif not Addon:
+        break
     elif PreviousAddon:
       #Checks if there is an Addon
       Addon = input()
       if Addon:
         print(Beginning + " " + PreviousAddon + " " + Addon)
         PreviousAddon = Addon
+      elif not Addon:
+        break
