@@ -1,4 +1,4 @@
-while true do
+while True:
 Beginning
 if not Beginning:
   #Checks if there isn't a beginning
