@@ -1,5 +1,5 @@
-Beginning = nil
-PreviousAddon = nil
+Beginning = False
+PreviousAddon = False
 
 while True:
   if not Beginning:
