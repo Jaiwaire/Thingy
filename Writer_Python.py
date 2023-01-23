@@ -24,6 +24,6 @@ while True:
       Addon = input()
       if Addon:
         print(Beginning + " " + PreviousAddon + " " + Addon)
-        PreviousAddon = Addon
+        PreviousAddon = PreviousAddon + " " + Addon
       elif not Addon:
         break
