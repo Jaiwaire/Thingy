@@ -7,6 +7,8 @@ while True:
     Beginning = input()
     if Beginning:
       print(Beginning)
+    elif not Beginning:
+      return
   if Beginning:
     #Checks if there is a beginning
     if not PreviousAddon:
