@@ -1,12 +1,13 @@
+Beginning = nil
+PreviousAddon = nil
+
 while True:
-  Beginning
   if not Beginning:
     #Checks if there isn't a beginning
     Beginning = input()
     print(Beginning)
   if Beginning:
     #Checks if there is a beginning
-    PreviousAddon
     if not PreviousAddon:
       #Checks if there isn't an Addon
       Addon = input()
