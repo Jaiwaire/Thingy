@@ -5,7 +5,7 @@ while True:
   if not Beginning:
     #Checks if there isn't a beginning
     Beginning = input()
-    if Beggining:
+    if Beginning:
       print(Beginning)
   if Beginning:
     #Checks if there is a beginning
